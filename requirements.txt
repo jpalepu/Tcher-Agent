@@ -1,0 +1,14 @@
+streamlit==1.32.0
+python-dotenv
+dotenv
+openai
+pillow==10.1.0
+mistralai
+pdf2image==1.16.3
+langchain
+langchain-openai
+torchaudio
+numpy
+pydub
+TTS
+langdetect
