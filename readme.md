@@ -1,6 +1,6 @@
 # 🎙️ Tcher – Document to Podcast Converter
 
-**Tcher** transforms documents into engaging, podcast-style audio. It extracts text from PDFs or images, generates conversational scripts using Azure OpenAI, and converts those scripts into natural-sounding audio using Coqui TTS.
+**Tcher** transforms documents into engaging, podcast-style audio. It extracts text from PDFs or images (using mistral OCR), generates conversational scripts using Azure OpenAI (can also be customized by using your openai key), and converts those scripts into natural-sounding audio using Coqui TTS (can also be changed with more advanced ones from eleven labs).
 
 ## 🚀 Features
 
@@ -23,8 +23,8 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/jpalepu/tcher.git
-cd tcher
+git clone https://github.com/jpalepu/Tcher-Agent.git
+cd Tcher-Agent
 ```
 
 ### 2. Create a virtual environment
@@ -76,7 +76,7 @@ Create a `.env` file in the project root with the following variables:
 OPENAI_API_KEY=your_azure_api_key
 OPENAI_API_VERSION=2023-05-15
 OPENAI_API_BASE=https://your-resource-name.openai.azure.com/
-OPENAI_DEPLOYMENT_NAME=your_deployment_name
+OPENAI_DEPLOYMENT_NAME=your_deployment_name 
 ```
 
 ## 🧩 How It Works
